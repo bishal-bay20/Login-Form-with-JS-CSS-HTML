@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, 
+h2,
+h3 {
+    margin: 1rem;
+}
+
+#main-header {
+     background-color: green;
+     color: #fff;
+     margin-bottom: 2rem;
+}
+
+#main-header .container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#content {
+    background: #fff ;
+    box-shadow: 0 0 5px 0 ;
+    border-radius: 10px;
+    outline: none;
+    width: 500px;
+    margin: auto;
+    padding: 3rem 5rem;
+    position: relative;
+}
+
+ .login  {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: darkmagenta;
+
+ }
+
+ .login  {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: darkmagenta;
+
+ }
+
+ .flex {
+    display: flex;
+    gap: 20px;
+ }
+
+ .main-section .container input {
+    background: #fff;
+    box-shadow: 1px 2px 0 0;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    box-shadow: 10px;
+    margin-bottom: 20px;
+ } 
+
+
+
+ /* .btn1 {
+     margin-top: 20px;
+     padding: 10px 50px;
+ } */
+ 
+#my-form .submit{
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+ }
+
+#my-form .submit input{
+    padding: 8px 20px;
+ }
+
+.main-section-a .section-title {
+    font-size: 25px;
+}
+
+.msg {
+    color: darkmagenta;
+}
+.msgs{
+    /* font-size: 50px; */
+    color: darkmagenta;
+}
+
+
+ 
+#main-footer {
+    text-align: end;
+    margin-top: 20px;
+   
+}
